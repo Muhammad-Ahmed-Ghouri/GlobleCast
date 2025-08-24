@@ -5,7 +5,6 @@ export class News extends Component {
   render() {
     return (
       <>
-        <h1>this is news</h1>
         <NewsItem />
       </>
     );
