@@ -1,0 +1,6 @@
+
+(tut:25)-----/////////////////// state in class based component ////////////////////////// 
+
+> in every class constructor call first in every constructor we have to write super() method because whenever code run class runs parent class
+  constructor first and that constructor set up things like this.prop if you didn't write super() you can not use this. method inside the 
+  constructor
