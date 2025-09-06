@@ -4,3 +4,18 @@
 > in every class constructor call first in every constructor we have to write super() method because whenever code run class runs parent class
   constructor first and that constructor set up things like this.prop if you didn't write super() you can not use this. method inside the 
   constructor
+
+(tut:34)-----/////////////////// Component life cycle ////////////////////////// 
+
+> React component lifecycle means series of events that happens from mounting of a react component to its unmounting.
+  Mounting: When your component birth.
+  Update: Growth of your component.
+  Unmounting: death of your component.
+
+////// Mehtods in React Component Lifecycle
+
+> You have to use render() method in your class based component for rendering dom. it runs during you component mounting or updating.
+  You can't modify your state in render() method.
+> After render() method run your componentDidMount() method will b run.
+> After that componentDidUpdate() method run for updating any thing like state or props change.
+> After that componentWillUnmount() method run just berfore unmounting or destroy your component. Usually use for cleanUps.
